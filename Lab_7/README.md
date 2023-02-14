@@ -1,1 +1,0 @@
-# Scan Line Polygon Filling Algorithm
