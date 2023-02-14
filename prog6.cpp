@@ -9,8 +9,8 @@ void draw_sphere(){
 	// for each longitude
 	for (phi = -80.0; phi <= 80.0; phi+=10.0){
 		//convert to rad
-		phir = c * phi;		//1st pt
-		phir20 = c * (phi + 20.0);		//2nd pt
+		phir = c * phi;		//1st pt.
+		phir20 = c * (phi + 20.0);		//2nd pt.
 		
 		if (phi == 0.0)
 			glColor3f(1.0,1.0,0.0);
